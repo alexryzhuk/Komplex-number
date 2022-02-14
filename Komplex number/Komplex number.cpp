@@ -83,8 +83,8 @@ void Multiplication(int x, int y, int x1, int y1){
     else if (b == 0) cout << a << endl;
 }
 void Division(int x, int y, int x1, int y1) {
-    int a;
-    int b;
+    double a;
+    double b;
     a = ((x * x1) + (y * y1)) / ((x1 * x1) + (y1 * y1));
     b = ((y * x1) - (x * y1)) / ((x1 * x1) + (y1 * y1));
     if (a == 0) cout << b << "i" << endl;
